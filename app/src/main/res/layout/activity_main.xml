@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:id="@+id/transitionContainer"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:useDefaultMargins="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/button1"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/bunnieone"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/squirrel_up"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck,ImageContrastCheck"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="45dp" />
+
+        <ImageButton
+            android:id="@+id/button2"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/bunnie2"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/squirrel_down"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="143dp"
+            tools:layout_editor_absoluteY="45dp" />
+
+        <ImageButton
+            android:id="@+id/button3"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/bunnie3"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/squirrel_left"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="258dp"
+            tools:layout_editor_absoluteY="45dp" />
+
+        <ImageButton
+            android:id="@+id/button4"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/bunnies"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/squirrel_right"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="195dp" />
+
+        <ImageButton
+            android:id="@+id/button5"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/bunniesss"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/squirrel_up"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="143dp"
+            tools:layout_editor_absoluteY="195dp" />
+
+        <ImageButton
+            android:id="@+id/button6"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/bunnies"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/squirrel_down"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="258dp"
+            tools:layout_editor_absoluteY="195dp" />
+
+        <ImageButton
+            android:id="@+id/button7"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/bunniesss"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/squirrel_left"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="345dp" />
+
+        <ImageButton
+            android:id="@+id/button8"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/bunnies"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/squirrel_right"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="143dp"
+            tools:layout_editor_absoluteY="345dp" />
+
+        <ImageButton
+            android:id="@+id/button9"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/bunnies"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/squirrel_up"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="258dp"
+            tools:layout_editor_absoluteY="345dp" />
+
+        <ImageButton
+            android:id="@+id/button10"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/bunnies"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/squirrel_down"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="495dp" />
+
+        <ImageButton
+            android:id="@+id/button11"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/bunniesss"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/squirrel_left"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="143dp"
+            tools:layout_editor_absoluteY="495dp" />
+
+        <ImageButton
+            android:id="@+id/button12"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/bunnies"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/squirrel_right"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="258dp"
+            tools:layout_editor_absoluteY="495dp" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/score_id"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Score: 0"
+        android:textAlignment="textEnd"
+        android:textSize="34sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/time_id"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Time: 0"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
