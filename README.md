@@ -7,7 +7,7 @@ Once you select your prefered difficulty, the desired time will start once the p
 This Application was created using the Android Studio IDE, and development using Java13.0. To download this application, click on the code button, scroll down to download into zip file, and open the extracted folder in android studio.
 
 # Code Layout
-**Main Activity**- sets the app bar with the actions of stop, start, and the dialog fragment. ImageButtons are set up here and given id's to be used in timers and given fade affects. Sound is also implemented here and assigned to the image button ids. Finally, the timer for the game difficulty is set here.
-**Game Difficulty Dialog Fragment**- holds the time-array to be used in the dialog fragment
-**Activity Main**- arrages and defines 12 image buttons 
-**Activity Help**- arranges and degines the help menu
+1. **Main Activity**- sets the app bar with the actions of stop, start, and the dialog fragment. ImageButtons are set up here and given id's to be used in timers and given fade affects. Sound is also implemented here and assigned to the image button ids. Finally, the timer for the game difficulty is set here.
+2. **Game Difficulty Dialog Fragment**- holds the time-array to be used in the dialog fragment
+3. **Activity Main**- arrages and defines 12 image buttons 
+4. **Activity Help**- arranges and degines the help menu
