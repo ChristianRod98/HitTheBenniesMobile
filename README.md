@@ -11,3 +11,5 @@ This Application was created using the Android Studio IDE, and development using
 2. **Game Difficulty Dialog Fragment**- holds the time-array to be used in the dialog fragment
 3. **Activity Main**- arrages and defines 12 image buttons 
 4. **Activity Help**- arranges and degines the help menu
+5. **Appbar Menu**- organizes the actions (difficulty, help, difficutly explained) to take place 
+
