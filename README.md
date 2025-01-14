@@ -1,3 +1,4 @@
+# HitTheBenniesMobile
 Hit the Bennies Mobile Application By: Jeniffer Jimenez, Cole Ledford, John Mullis, and Christian Rodriguez
  
 HittheBennies is an Android mobile application, inspired by the whack a mole game, that displays squirrels for the player to hit to increase their score within the given time restraints. There are three time levels: easy (30 sec), medium (15 sec), and hard (10 sec).
